@@ -1,0 +1,11 @@
+.shop__art2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop__art2--btn {
+  border-color: 2px solid $color1;
+  border-radius: 25%;
+}
