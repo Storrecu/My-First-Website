@@ -2,28 +2,23 @@
   background-image: url(../images/cover.jpeg);
   width: 100vw;
   height: 100vh;
-  // background-size: cover;
+  background-size: cover;
   background-position: 78%;
   background-repeat: no-repeat;
-  @media (min-width:768px) {
-    background-position: center;
-  }
 }
 
 .hero__art1 {
-color: $color4;
+color: $color-quaternary;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align: center;
-height: 100%;
 width: 100%;
-padding: 90% 0 0 0;
 }
 
 .hero__art1--title{
-font-family: $font-family-title; 
+font-family: $font-family-title;
 font-weight: 400;
 font-size: $font-size-imp;
 text-transform: uppercase;
@@ -32,15 +27,20 @@ line-height: 80px;
 width: 100%;
 }
 
+.hero__art1--title span {
+  font-family: $font-family-title;
+}
+
 .hero__art1--desc{
-font-family: $font-family-generic;
 font-weight: 300; 
 font-size: $font-size-normal;
 padding: 15px;
 }
 
 .hero__art1--btn{
-background-color: $color4;
+border: none;
+box-shadow: none;
+background-color: $color-quaternary;
 width: 50px;
 height: 50px;
 border-radius: 50%;

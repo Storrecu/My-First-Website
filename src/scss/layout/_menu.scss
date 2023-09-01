@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   .header__menu {
-    background-color: $color1;
+    background-color: $color-primary;
     position: fixed;
     top: 0;
     left: 0;
@@ -15,4 +15,4 @@
   }
 }
 
-/*NO SE QUEDA FIXED EN VERSION MOBILE*/
+
