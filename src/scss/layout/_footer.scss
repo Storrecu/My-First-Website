@@ -8,9 +8,27 @@
   text-transform: uppercase;
   height: 450px;
   gap: 25px;
+  @media (min-width: 768px) {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    height: 250px;
+    padding: 60px 70px 90px;
+    position: relative;
+  }
 }
 
 .footer__nav {
+  @media (min-width: 768px) {
+    order: 2;
+  }
+}
+
+.footer__nav2 {
+  @media (min-width: 768px) {
+    order: 1;
+  }
 }
 
 .footer__nav--ul {
@@ -20,6 +38,10 @@
   align-items: center;
   gap: 10px;
   text-align: justify;
+  @media (min-width: 768px) {
+    justify-content: center;
+    align-items: stretch;
+  }
 }
 
 .footer__nav--li {
@@ -39,10 +61,16 @@
   height: 45px;
   border-radius: 50%;
   line-height: 45px;
-  transform: translateY(-42%);
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
+  margin-top: -20px;
+  @media (min-width: 768px) {
+    position: absolute;
+    right: auto;
+    top: 0px;
+  }
 }
 
 .footer__btn--arrowUp {
@@ -56,6 +84,9 @@
   text-align: center;
   line-height: 35px;
   font-size: 0.85rem;
+  @media (min-width: 768px) {
+    order: 3;
+  }
 }
 
 .little__heart {

@@ -5,15 +5,25 @@
   grid-auto-rows: minmax(50px, auto);
   grid-gap: 10px;
   padding: 25px;
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 80px 1fr 100px;
+  }
 
-  &__title {
+  &-sec {
+    @media (min-width: 768px) {
+      grid-column: span 3;
+    }
+  }
+
+  &__sec--title {
     color: $color-tertiary;
     font-family: $font-family-title;
     font-size: $font-size-small;
     text-align: center;
   }
 
-  &__title2 {
+  &__sec--title2 {
     text-transform: uppercase;
     font-family: $font-family-title;
     font-size: $font-size-medium;
@@ -50,6 +60,9 @@
     border-radius: 30px;
     width: 200px;
     text-align: center;
+    @media (min-width: 768px) {
+      grid-column: span 3;
+    }
     .grid-btn-shopNow {
       font-size: 1.3rem;
       color: $color-quaternary;
