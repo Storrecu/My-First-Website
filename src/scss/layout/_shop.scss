@@ -13,20 +13,19 @@
   font-weight: normal;
 }
 
-.shop__art2--subtitle{
+.shop__art2--subtitle {
   margin: 5px;
   text-transform: uppercase;
   font-family: $font-family-title;
-  font-size: $font-size-normal;
+  font-size: $font-size-medium;
 }
 
-.shop__art2--desc{
+.shop__art2--desc {
   color: $color-tertiary;
   margin: 8px;
   line-height: 30px;
   font-size: 1.2rem;
   font-weight: 300;
-
 }
 
 .shop__art2--btn {
@@ -39,6 +38,6 @@
   border: 2px solid $color-primary;
   border-radius: 25px;
   padding: 9px;
-  width: 150px;
-  font-size: $font-size-normal;
+  width: 200px;
+  font-size: $font-size-medium;
 }
