@@ -73,6 +73,18 @@
     right: auto;
     top: 0px;
   }
+  &:hover {
+    animation: rotation 5s infinite;
+    rotate: 0;
+    @keyframes rotation {
+      0% {
+        rotate: 0deg;
+      }
+      100% {
+        rotate: 360deg;
+      }
+    }
+  }
 }
 
 .footer__btn--arrowUp {

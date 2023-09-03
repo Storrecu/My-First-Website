@@ -61,7 +61,7 @@
   padding: 9px;
   width: 180px;
   font-size: 1.2rem;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  transition: transform 0.3s, background-color 0.3s;
   @media (min-width: 768px) {
     margin-bottom: 30px;
   }
