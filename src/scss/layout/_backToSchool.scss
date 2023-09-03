@@ -74,21 +74,15 @@
   }
   .grid-btn {
     margin: auto;
-    padding: 12px;
-    background-color: $color-primary;
-    border-radius: 30px;
-    width: 200px;
     text-align: center;
-    transition: transform 0.3s ease, background-color 0.3s ease;
     @media (min-width: 768px) {
       grid-column: span 3;
     }
-    &:hover {
-      transform: scale(1.1);
-      background-color: $color-quaternary;
-      color: $color-primary;
-    }
+
     .grid-btn-shopNow {
+      padding: 12px;
+      border-radius: 30px;
+      width: 200px;
       font-size: 1.3rem;
       color: $color-quaternary;
       border: none;
