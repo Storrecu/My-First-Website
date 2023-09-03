@@ -29,10 +29,9 @@
   &__sec--title {
     color: #626262;
     font-family: $font-family-title;
-    font-size: $font-size-small;
+    font-size: 0.75rem;
     text-align: center;
     @media (min-width: 768px) {
-      font-size: 0.7rem;
       padding: 5px;
     }
   }
@@ -40,7 +39,7 @@
   &__sec--title2 {
     text-transform: uppercase;
     font-family: $font-family-title;
-    font-size: $font-size-medium;
+    font-size: 1.5rem;
     text-align: center;
     @media (min-width: 768px) {
       font-size: 1.6rem;
@@ -80,8 +79,14 @@
     border-radius: 30px;
     width: 200px;
     text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
     @media (min-width: 768px) {
       grid-column: span 3;
+    }
+    &:hover {
+      transform: scale(1.1);
+      background-color: $color-quaternary;
+      color: $color-primary;
     }
     .grid-btn-shopNow {
       font-size: 1.3rem;
@@ -89,6 +94,12 @@
       border: none;
       box-shadow: none;
       background-color: $color-primary;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      &:hover {
+        transform: scale(1.1);
+        background-color: $color-quaternary;
+        color: $color-primary;
+      }
     }
   }
 }

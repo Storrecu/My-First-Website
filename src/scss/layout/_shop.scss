@@ -20,19 +20,22 @@
   margin: 5px;
   color: $color-primary;
   text-transform: uppercase;
-  font-size: $font-size-small;
+  font-size: 0.85rem;
   font-weight: normal;
+  @media (min-width: 768px) {
+    font-size: 1rem;
+  }
 }
 
 .shop__art2--subtitle {
   margin: 5px;
   text-transform: uppercase;
   font-family: $font-family-title;
-  font-size: $font-size-medium;
-  // @media (min-width: 768px) {
-  //   font-size: 2rem;
-  //   line-height: 60px;
-  // }
+  font-size: 1.3rem;
+  @media (min-width: 768px) {
+    font-size: 2rem;
+    line-height: 60px;
+  }
 }
 
 .shop__art2--desc {
@@ -58,7 +61,13 @@
   padding: 9px;
   width: 180px;
   font-size: 1.2rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
   @media (min-width: 768px) {
     margin-bottom: 30px;
+  }
+  &:hover {
+    transform: scale(1.1);
+    background-color: $color-secondary;
+    color: $color-tertiary;
   }
 }
