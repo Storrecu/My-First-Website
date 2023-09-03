@@ -20,30 +20,63 @@
   @media (min-width: 1200px) {
     gap: 300px;
   }
-}
-
-.footer__nav {
-  @media (min-width: 768px) {
-    order: 2;
-  }
-}
-
-.footer__nav2 {
-  @media (min-width: 768px) {
-    order: 1;
-  }
-}
-
-.footer__nav--ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: stretch;
-  align-items: center;
-  gap: 10px;
-  text-align: justify;
-  @media (min-width: 768px) {
+  &__btn {
+    background-color: $color-quaternary;
+    box-shadow: none;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    line-height: 45px;
+    display: flex;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
+    margin-top: -20px;
+    @media (min-width: 768px) {
+      position: absolute;
+      margin-right: 8%;
+      right: auto;
+      top: 0px;
+    }
+    &:hover {
+      animation: rotation 5s infinite;
+      rotate: 0;
+      @keyframes rotation {
+        0% {
+          rotate: 0deg;
+        }
+        100% {
+          rotate: 360deg;
+        }
+      }
+    }
+    &--arrowUp {
+      width: 25px;
+      height: 25px;
+      margin-top: 20px;
+    }
+  }
+  &__nav {
+    @media (min-width: 768px) {
+      order: 2;
+    }
+    &--ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: stretch;
+      align-items: center;
+      gap: 10px;
+      text-align: justify;
+      @media (min-width: 768px) {
+        justify-content: center;
+        align-items: stretch;
+      }
+    }
+  }
+  &__nav2 {
+    @media (min-width: 768px) {
+      order: 1;
+    }
   }
 }
 
@@ -54,43 +87,6 @@
 .footer__link {
   text-decoration: none;
   color: $color-quaternary;
-}
-
-.footer__btn {
-  background-color: $color-quaternary;
-  box-shadow: none;
-  border: none;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  line-height: 45px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -20px;
-  @media (min-width: 768px) {
-    position: absolute;
-    right: auto;
-    top: 0px;
-  }
-  &:hover {
-    animation: rotation 5s infinite;
-    rotate: 0;
-    @keyframes rotation {
-      0% {
-        rotate: 0deg;
-      }
-      100% {
-        rotate: 360deg;
-      }
-    }
-  }
-}
-
-.footer__btn--arrowUp {
-  width: 25px;
-  height: 25px;
-  margin-top: 20px;
 }
 
 .footer__info {
