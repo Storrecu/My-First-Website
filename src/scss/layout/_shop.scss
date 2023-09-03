@@ -1,3 +1,11 @@
+.shop {
+  max-width: 90%;
+  margin: 0 auto;
+  @media (min-width: 1200px) {
+    margin: 0 60px;
+  }
+}
+
 .shop__art2 {
   display: block;
   padding: 30px 15px;
@@ -21,10 +29,10 @@
   text-transform: uppercase;
   font-family: $font-family-title;
   font-size: $font-size-medium;
-  @media (min-width: 768px) {
-    font-size: 2rem;
-    line-height: 60px;
-  }
+  // @media (min-width: 768px) {
+  //   font-size: 2rem;
+  //   line-height: 60px;
+  // }
 }
 
 .shop__art2--desc {
@@ -33,6 +41,9 @@
   line-height: 30px;
   font-size: 1.2rem;
   font-weight: 300;
+  @media (min-width: 1200px) {
+    width: 85%;
+  }
 }
 
 .shop__art2--btn {
@@ -46,7 +57,7 @@
   border-radius: 25px;
   padding: 9px;
   width: 180px;
-  font-size: $font-size-medium;
+  font-size: 1.2rem;
   @media (min-width: 768px) {
     margin-bottom: 30px;
   }

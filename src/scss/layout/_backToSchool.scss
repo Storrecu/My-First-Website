@@ -1,4 +1,10 @@
+.school {
+  background-color: $color-secondary;
+}
+
 .backToSchool {
+  max-width: 1200px;
+  margin: 0 auto;
   background-color: $color-secondary;
   display: grid;
   grid-template-columns: 1fr;
@@ -9,6 +15,10 @@
     grid-template-columns: repeat(3, auto);
     grid-template-rows: 80px 1fr 100px;
   }
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(3, 30%);
+    padding-left: 15%;
+  }
 
   &-sec {
     @media (min-width: 768px) {
@@ -17,10 +27,14 @@
   }
 
   &__sec--title {
-    color: $color-tertiary;
+    color: #626262;
     font-family: $font-family-title;
     font-size: $font-size-small;
     text-align: center;
+    @media (min-width: 768px) {
+      font-size: 0.7rem;
+      padding: 5px;
+    }
   }
 
   &__sec--title2 {
@@ -28,6 +42,9 @@
     font-family: $font-family-title;
     font-size: $font-size-medium;
     text-align: center;
+    @media (min-width: 768px) {
+      font-size: 1.6rem;
+    }
   }
 
   .grid__list {
@@ -44,13 +61,16 @@
       height: 135px;
       border-radius: 50%;
       grid-column: span 2;
-      // box-shadow: 0 0 2px 2px rgb(209, 206, 206);
+      box-shadow: 0px 3px 5px 2px grey;
     }
     &--title {
       padding: 2px;
       margin: auto;
       font-family: $font-family-title;
       font-size: 0.85rem;
+      @media (min-width: 768px) {
+        font-size: 1.15rem;
+      }
     }
   }
   .grid-btn {
