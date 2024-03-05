@@ -2,7 +2,7 @@
 
 Bienvenidos al **primero de muchos proyectos** que realizaré a lo largo de mi trayectoria como desarrolladora web. 
 
-## Features. 
+## Tech Stack. 
 En este repositorio, encontraréis el primer proyecto realizado individualmente en el que trabajo en la réplica de un diseño ya dado, utilizando:
 - HTML 
 - CSS 
@@ -11,7 +11,7 @@ En este repositorio, encontraréis el primer proyecto realizado individualmente 
 - CSS Grid 
 - Media quieries
 - Posicionamiento
-- Adalab Starter Kit. 
+- [Adalab Starter Kit](https://github.com/adalab/adalab-web-starter-kit)
 
 ## Detalles del proyecto y Interacciones a resolver. 
 El objetivo es replicar una página web, orientada a la venta de material escolar de cara a la inminente vuelta al cole.
@@ -48,12 +48,10 @@ Sentíos libres de toquetear y de ver algunos efectos de transiciones y/o animac
 Si deseas contribuir a este proyecto, estoy abierta a sugerencias, feedbacks y mejoras.
 Esta profesión requiere una formación constante, así que no seais tímidos. 
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
+![Gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHoxd2VxM2l0dTF6djIyanJvZmQxZ3ZxNTJhazhrcG9yZWJwemw5aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wcgn5fVDjvR7pdvz4C/giphy.gif)
 
 
 
-
-
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
 
 
