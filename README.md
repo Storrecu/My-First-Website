@@ -4,15 +4,14 @@ Bienvenidos al **primero de muchos proyectos** que realizaré a lo largo de mi t
 
 ## Features. 
 En este repositorio, encontraréis el primer proyecto realizado individualmente en el que trabajo en la réplica de un diseño ya dado, utilizando:
-
--HTML 
--CSS 
--Sass 
--Flexbox 
--CSS Grid 
--Media quieries
--Posicionamiento
--Adalab Starter Kit. 
+- HTML 
+- CSS 
+- Sass 
+- Flexbox 
+- CSS Grid 
+- Media quieries
+- Posicionamiento
+- Adalab Starter Kit. 
 
 ## Detalles del proyecto y Interacciones a resolver. 
 El objetivo es replicar una página web, orientada a la venta de material escolar de cara a la inminente vuelta al cole.
@@ -28,9 +27,22 @@ Como puntos adicionales, añadí dos pseudo clases del tipo :hover para los boto
 Además, realicé una pequeña animación en el botón del footer para que haga una rotación de 360 grados al dejar el cursor encima. Este botón enlaza también a la web de Adalab. 
 
 ## Visualización del proyecto. 
-En la parte superior derecha, en "About" encontrareis un enlaze que os llevará a la URL del proyecto terminado. 
+En la parte superior derecha, en "About" encontrareis un enlaze que os llevará a la URL del proyecto terminado: https://storrecu.github.io/My-First-Website/ 
+
 Sentíos libres de toquetear y de ver algunos efectos de transiciones y/o animaciones que he incluido. 
-No espereis grandes cosas! estoy aprendiendo y de momento estos efectos son sencillos, pero por algo se empieza. 
+
+## Pasos para arrancar el proyecto
+
+1. Clona el repositorio:
+
+2. Abre el proyecto en Visual Studio Code y ejecuta la terminal. En la terminal, ejecuta los siguientes comandos:
+
+   
+   2.1. ``` npm instal ``` Con este comando, instalamos las dependencias del proyecto.
+
+   
+   2.2. Después ejecuta: ``` npm start ``` Con este comando podremos ver el proyecto en el navegador web.
+
 
 ## Contribución.
 Si deseas contribuir a este proyecto, estoy abierta a sugerencias, feedbacks y mejoras.
@@ -38,10 +50,6 @@ Esta profesión requiere una formación constante, así que no seais tímidos.
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
-
-## Autor. 
-
-Hecho por Silvia Torres para Adalab. 
 
 
 
